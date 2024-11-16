@@ -1,0 +1,136 @@
+Hello Friends!
+In this video, we are going to discuss model based reflex agents
+with real life examples.
+In the last video, we discussed simple reflex agents.
+The main point about the simple reflex agent is that
+it works in a fully observable environment
+and makes decisions on the basis of what it senses at present
+and then perform actions.
+But if we talk about model based reflex agent,
+this is also a reflex agent.
+But here we use 'model based'.
+Model refers to the knowledge base.
+And how is this knowledge base created?
+It is created through history.
+What it has perceived from the environment in the past,
+it saved it as a knowledge base,
+as a human brain does.
+We also create a knowledge base from everything that we have learned in the past.
+The same knowledge base is considered as the model.
+It is used for decision-making.
+But the simple reflex agent works based on what it sees and the if-else condition.
+But here, these three points are new
+as compared to the simple reflex.
+It will perceive things from the environment.
+But in the simple reflex, this environment was fully observable.
+In the fully observable environment, the agent has full knowledge of the environment.
+It knows what's there in the environment.
+But here's an important point.
+It's partially observable.
+Often, a question comes on this
+that what's the difference between the two and which works in a partially observable environment.
+In the partially observable environment,
+the agent doesn't have complete knowledge of the environment.
+For example, let's discuss the agent.
+Let's say, there is an agent
+which is a self-driving car.
+When a self-driving car drives on the road,
+it knows everything about its own environment
+like which sensors are there,
+there may be high-level sensors and ultrasonic sensors of a high level.
+It knows about the brakes and acceleration.
+But, does it know how many cars are there on the road at present?
+It doesn't.
+If there is someone in front of it,
+does it know when he will press the brakes?
+It doesn't.
+It can't observe the complete environment.
+It can only observe certain points.
+So this point says that in a partially observable environment,
+model based reflex agent works.
+And what does it do?
+It will first perceive or sense something from the environment.
+Then it will see what the environment is like now.
+It will analyze the current state of the environment.
+It will first save that current state.
+Our mind also first analyzes a situation.
+After seeing the situation, for a very less time, we store that complete scene.
+Notice it carefully
+ and visualize in the future that "Yes, you also work like this."
+A scenario or situation came.
+You are storing it in the internal memory.
+And corresponding to that, you are applying the model base.
+Here you are using "How the world evolves?"
+This is about history.
+You applied the past here.
+According to that, you have to perform some action.
+And "What my actions do?"
+What will your action do,
+on the basis of that, you will decide what action you need to perform further.
+"What action I should take now?"
+Here comes the condition rule.
+But this condition will not be applied directly.
+You can't apply the condition on the basis of what you see.
+a simple example of this is Waymo.
+Waymo is Google's major project on self-driving cars.
+But that project is under Waymo
+and Waymo has already started many cars/cabs in Arizona.
+They are self-driving.
+They are driverless cars.
+What happens in it?
+What is there in it?
+If we use the condition action rule,
+we will give a condition that if there is a car in front of my car,
+and if it is applying the brakes,
+the red light behind it will be on
+and simultaneously, we also have to apply our brakes.
+This is if-else.
+Means if the other person is applying brakes,
+the red light is on,
+we turned on our red light as well.
+But, does it happen always?
+Do you always do it?
+Or will you instantly apply the brakes completely?
+This may also be a problem.
+It may cause an accident.
+Here, you don't have to act instantly.
+You have to check the history.
+You will get to know that it has reduced the speed
+and you reduced it to 0.
+No.
+Similarly, you need to change the lane.
+You thought that there is a pothole road blockage ahead.
+You don't have to perform the action instantly.
+You may also have to decide whether you want to go left or right.
+If you search for Waymo,
+you will get the complete video
+and you will get to know that they have put so many high-level sensors on the car
+and already implemented it.
+Those cars are already driving on the road.
+But, in Arizona, USA, not in India.
+I don't know when such a project will be passed in India.
+"Store the percept history."
+It will store this.
+So obviously, it needs a storage system too.
+On the basis of that storage system, it will perform the actions.
+This is model based
+in which there are no if-else.
+You don't need to perform actions instantly.
+You have to first use your knowledge base.
+A similar situation came in history, and you have to act on the basis of that.
+It is also possible that a similar situation may not have occurred in history.
+What will you do then?
+You will update your knowledge base.
+It's not necessary that you have seen everything in your life.
+But, every person when he sees something new in his life,
+he stores it in his mind
+so that it helps him perform actions in a similar situation in the future.
+This is the main purpose of model-based reflex agent.
+On the basis of the same,
+actuators perform the actions.
+You can say that this is the main difference between simple reflex and model based reflex
+and how model based works.
+The Waymo project that I told you about,
+it is already implemented.
+And a lot of similar new projects are also being introduced in the market.
+Thank you!
